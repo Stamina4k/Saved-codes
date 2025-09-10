@@ -1,0 +1,28 @@
+form{
+    height: 350px;width: 300px;
+    border:1px solid #000;
+    margin: auto ;margin-top:100px;
+    border-radius: 10px;
+}
+input{border:1px solid #000;}
+h2{text-align: center;}
+label{margin-left:23px}
+#user{
+    margin-left: 23px ;padding: 5px;
+    height: 28px;width: 80%;
+    border-radius: 7px;
+    font-size:18px;
+}#pass{margin-left: 23px ;padding: 5px;
+height: 28px;width: 80%;
+    border-radius: 7px;
+    font-size:18px;
+}
+.forchk{ margin: 0;
+} 
+button{
+    padding: 6px;margin-left: 37% ;
+    font-size:18px;
+    background: #2f8c6a;color: #fff;
+    border-radius: 3px;
+    border: none;
+}

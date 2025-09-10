@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>learning database</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='user.css') }}">
+</head>
+<body>
+    <form  class="form">
+        <h2>Create an account</h2><br>
+        <label>Username</label><br>
+        <input id="user" type="text" placeholder="Username"><br><br>
+        <label>Password</label><br>
+        <input id="pass" type="password"placeholder="Password"><br><br>
+      <label class="forchk"><input type="checkbox" id="chk">I agree to the <a href="">terms</a> and <a href="">services</a></label><br>
+      
+       <br>
+        <button id="" type="submit">Sign up</button><br>
+        <a href="{{ url_for('log') }}" style="margin:10px;">Login to account</a>
+
+        
+    </form>
+</body>
+</html>

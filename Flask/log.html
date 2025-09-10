@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>learning database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='user.css') }}">
+</head>
+<body>
+    <form  class="form">
+        <h2>Login to account</h2><br>
+        <label>Username</label><br>
+        <input id="user" type="text" placeholder="Username"><br><br>
+        <label>Password</label><br>
+        <input id="pass" type="password" placeholder="Password"><br><br>
+        <label class="forchk">
+            <input type="checkbox" id="chk"> Remember me
+        </label> 
+        <a href="{{ url_for('create') }}" style="margin-left:20px;">Create an account</a>
+        <br><br>
+        <button type="submit">Sign in</button>
+    </form>
+</body>
+</html>
